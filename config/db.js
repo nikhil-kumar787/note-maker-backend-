@@ -1,8 +1,6 @@
 //Connection file to mongo db
 import mongoose from "mongoose";
 import colors from "colors";
-import env from "env"
-env.config()
 
 const connectDB = async () => {
   try {
